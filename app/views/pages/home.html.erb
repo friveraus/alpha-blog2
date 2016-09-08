@@ -3,17 +3,11 @@
 <head>
 	<title>My Website</title>
 </head>
-<body style="background-color:yellow;">
-	<h1>This is the body of my Home page</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales vulputate nulla, bibendum malesuada massa maximus nec. Cras id leo massa. Pellentesque quis justo sed risus interdum tempor.</p>
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales vulputate nulla, bibendum malesuada massa maximus nec. Cras id leo massa. Pellentesque quis justo sed risus interdum tempor </p> 
-
+	<div class="center jumbotron">
+		<h1>ALPHA BLOG</h1>
+		<%= link_to "Sign up now", "#", class: "btn btn-danger btn-lg btn-xlarge" %>
+	</div>
 </body>
-<footer style="background-color:blue";>
-	<p>This is my footer</p>
-	<p>Lorem ipsum dolor</p>
-</footer>
+
 </html>
 
-<%= link_to "Alpha Blog", articles_path %> | <%= link_to 'About', about_path %>
